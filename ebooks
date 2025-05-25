@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon & Kindle Icons</title>
+  <style>
+    body {
+      margin: 0;
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .icon-container {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .icon {
+      width: 50px;
+      height: 50px;
+      filter: none;
+      transition: transform 0.3s ease, filter 0.3s ease;
+      cursor: pointer;
+    }
+    .icon:hover {
+      transform: scale(1.2) rotate(10deg);
+      filter: brightness(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="icon-container">
+    <img src="https://static.wixstatic.com/media/a84819_731334421c1047ff97af7270879914b3~mv2.png" class="icon" alt="Amazon">
+    <img src="https://static.wixstatic.com/media/a84819_2d4e53420717470a9cf5afd0208f2561~mv2.png" class="icon" alt="Kindle">
+  </div>
+</body>
+</html>
